@@ -1,6 +1,6 @@
 # super class
 class Computer
-    attr_Accessor :model, :country, :year
+    attr_accessor :model, :country, :year
     
     def initialize(model, country, year)
         @model = model
